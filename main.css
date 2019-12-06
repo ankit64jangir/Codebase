@@ -1,0 +1,98 @@
+html{
+    background-color: #e6ffff;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+body::-webkit-scrollbar {
+    width: 1em;
+}
+body::-webkit-scrollbar-track{
+    background: #f7f7f7;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #00ffff;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+
+.nav{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+    position: fixed;
+    top: 0;
+    left: -10;
+    width: 100%;
+    background-color: #ccffff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    
+    
+}
+
+.nav a:hover{
+    background-color: #00ffff;    
+}
+#home{
+    border-radius: 20%;
+    padding: 10px;
+}
+#contact{
+    border-radius: 20%;
+    padding: 10px;
+}
+#support{
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.main{
+    padding: 30px;
+}
+
+#img1{
+    border-radius: 20%;
+    width: 20%;
+    height: 40%;
+    display: flex;
+    float: right;
+    display: inline;
+}
+
+#img2{
+    width: 40%;
+    height: 40%;
+}
+
+details{
+    width: 400px;
+    border-radius: 8px;
+    
+}
+details p {
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #424242;
+}
+details[open]{
+    background: #FAFAFA;
+
+}
+summary{
+    padding: 20px;
+    background-color: #424242;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.foot{
+    font-size: 20px;
+    text-align: center;  
+    width: 100%;
+    background-color: #ccffff;
+}
